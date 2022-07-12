@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro da Liga dos Astronautas</title>
+  </head>
+  <body>
+    <h3>Cadastro da Liga dos Astronautas</h3>
+    <form action="">
+      <label for="nome">Nome:</label>
+      <input type="text" name="nome" id="nome" required /><br /><br />
+      <label for="nome">E-mail:</label>
+      <input type="email" name="email" id="email" required />
+      <label for="senha"> - Senha:</label>
+      <input type="password" name="pass" id="pass" required /><br /><br />
+      <label for="nasc">Nascimento:</label>
+      <input type="date" name="nasc" id="nasc" required />
+      <label for="foto"> - Foto</label>
+      <input type="file" name="foto" id="foto" /><br /><br />
+      <label for="nacio">Nacionalidade:</label>
+      <select name="nacio" id="nacio">
+        <option value="brasileira">Brasileira</option>
+        <option value="alemã">Alemã</option>
+        <option value="suíça">Suíça</option></select
+      ><br /><br />
+      <label for="genero">Gênero:</label>
+      <input type="radio" name="gen" id="masc" />
+      <label for="masc">Masculino</label>
+      <input type="radio" name="gen" id="fem" />
+      <label for="fem">Feminino</label>
+      <input type="radio" name="gen" id="outros" />
+      <label for="outros">Outros</label>
+    </form>
+  </body>
+</html>
