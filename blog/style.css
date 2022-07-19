@@ -1,0 +1,23 @@
+main {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  background-color: #fffafa;
+}
+
+article {
+  padding: 20px;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  color: #008080;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+}

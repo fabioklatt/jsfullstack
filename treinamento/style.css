@@ -3,14 +3,21 @@ body {
 }
 h2 {
   color: white;
+  font-family: "Geostar Fill", cursive;
 }
 h4 {
   color: #f1c40f;
+  font-family: "Geostar Fill", cursive;
 }
 h3 {
   background-color: #f1c40f;
   border: 1px solid black;
+  font-family: "Geostar Fill", cursive;
 }
 .vermelho {
   color: #e74c3c;
+}
+
+li {
+  font-family: "Montserrat", sans-serif;
 }
